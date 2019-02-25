@@ -11,7 +11,9 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8a12c50-8dad-4329-85c3-943e5043870b" name="Default Changelist" comment="" />
+    <list default="true" id="b8a12c50-8dad-4329-85c3-943e5043870b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +33,10 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.103" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,12 +77,12 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
             </state>
           </provider>
+          <provider editor-type-id="android-manifest" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -109,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/HeadlessJSService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="60">
               <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/HeadlessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
+            <state relative-caret-position="135">
               <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,14 +136,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/HeadlessJSJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
+            <state relative-caret-position="268">
               <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1543#1736#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#4063#4376#0" expanded="true" />
-                <element signature="e#4375#4376#0" expanded="true" />
+                <element signature="e#3528#3786#0" expanded="true" />
+                <element signature="e#3785#3786#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../node_modules/react-native/android/com/facebook/react/react-native/0.58.5/react-native-0.58.5-sources.jar!/com/facebook/react/bridge/UiThreadUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-311">
+            <state relative-caret-position="135">
               <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
@@ -204,17 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Test" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -233,6 +223,17 @@
             <path>
               <item name="Test" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Test" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -402,14 +403,14 @@
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.5021645" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.5021645" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32756132" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32756132" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32756132" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.32900432" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -524,12 +525,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -551,26 +552,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../node_modules/react-native/android/com/facebook/react/react-native/0.58.5/react-native-0.58.5-sources.jar!/com/facebook/react/bridge/UiThreadUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/HeadlessTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/HeadlessJSService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="60">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -578,16 +562,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/HeadlessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../node_modules/react-native/android/com/facebook/react/react-native/0.58.5/react-native-0.58.5-sources.jar!/com/facebook/react/bridge/UiThreadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/test/HeadlessJSJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
+        <state relative-caret-position="268">
           <caret line="90" column="39" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1543#1736#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#4063#4376#0" expanded="true" />
-            <element signature="e#4375#4376#0" expanded="true" />
+            <element signature="e#3528#3786#0" expanded="true" />
+            <element signature="e#3785#3786#0" expanded="true" />
           </folding>
         </state>
       </provider>
